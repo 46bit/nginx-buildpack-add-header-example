@@ -1,0 +1,6 @@
+---
+applications:
+- name: nginx-test
+  memory: 64M
+  buildpack: nginx_buildpack
+  instances: 2
